@@ -1,7 +1,7 @@
 import numpy as np
 
-from word2vec import Word2Vec
-from utils import build_vocab, sample_negative_samples, generate_pairs
+from src.word2vec import Word2Vec
+from src.utils import build_vocab, sample_negative_samples, generate_pairs
 
 def train(text, embedding_dim=100, learning_rate=0.001, window_size=5, epochs=2,num_negatives = 10):
 

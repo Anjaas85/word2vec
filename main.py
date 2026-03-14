@@ -1,5 +1,5 @@
 
-from train import train
+from src.train import train
 if __name__ == "__main__":
     
     with open("shakespeare.txt", "r") as f:
